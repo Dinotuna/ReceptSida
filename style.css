@@ -1,1 +1,15 @@
+img{
+    border-radius: 10px;
+}
 
+main img{
+    width: 391px;
+    height: 661px;
+    object-fit: cover;
+}
+
+section img{
+    width: 628px;
+    height: 424px;
+    object-fit: cover;
+}
