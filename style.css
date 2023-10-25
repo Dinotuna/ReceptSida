@@ -5,18 +5,31 @@
 }
 
 header{
+    display: flex;
     grid-column: 1/4;
     grid-row: 1;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 header h1{
     font-size: 40px;
+    margin-left: 50px;
+
 }
 
 header a{
     text-decoration: none;
     color: black;
     font-size: 24px;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+
+header a:hover{
+    color: gray;
 }
 
 nav{
@@ -35,6 +48,7 @@ nav a{
     padding: 10px 50px 10px;
     font-size: 20px;
 }
+
 
 nav h1{
     font-family: 'Italianno', 'cursive';
